@@ -1,0 +1,63 @@
+* Fileds missing from the output data:
+** GPS Coordinates
+	- a5 = geo_hh_loc-Latitude
+	- a6 = geo_hh_loc-Longitude
+	- a7 = geo_hh_loc-Altitude
+
+* Adapted/Changed field names
+** ID fields
+	- id_b = id in section B
+
+
+* Extra fields in the output data:
+** All columns begin with have 'section_x-'
+** Repeat groups begin with 'repeat_'
+** Consent fields
+	- consent_note1
+	- consent_approve
+	- consent_name
+	- consent_signature
+	- consent_note2
+** CSV fields - fields retrieved from the listing data
+	- csv_head_name
+	- csv_head_age
+	- csv_head_gender
+	- csv_spouse_name
+	- csv_spouse_age
+	- csv_hh_members
+	- csv_land
+	- csv_land_minutes
+** Auxiliary fields - used to calculate other fileds within the script
+	- aux_a9a_a10a - datetime field used to calculate date and time of the 1st visit: a9a, a10a
+	- aux_a9b_a10b - datetime field used to calculate date and time of the 2nd visit: a9b, a10b
+	- aux_b2 - field to track the hh head to be set only once
+	- aux_male(B) - field to track list of male IDs and names
+	- aux_female(B) - field to track list of female IDs and names
+	- aux_all_male - list of all male used in Child Anthropometry section C
+	- aux_all_female - list of all female used in Child Anthropometry section C
+** Current fields
+	- curr_a9a_a10a - date and time when enumertor reaches the start of the first section
+	- curr_a9b_a10b - date and time when enumertor reaches the start of the second section
+** Check fields - calculate fields used to display warning/error messages
+	- chk_a9a_a10a - 1 if the measured date curr_a9a_a10a and the date entered by enumerator aux_a9a_a10a are on the same day, 2 otherwise. 1 - correct
+	- chk_a9b_a10b - 1 if the measured date curr_a9b_a10b and the date entered by enumerator aux_a9b_a10b are on the same day, 2 otherwise. 1 - correct
+	- chk_a13: 1 - if a13 = head name(from listing), 2 - otherwise. 1 - correct
+	- chk_b2 = the number of times the hh head has been set. 1 - correct
+	- chk_d3 = 1 - there's conflict between declared age and calculated age based on year/month of birth, 2 - no colflict. 2 - correct
+** Error/Warning notes displayed for the supervisor at the end, can be removed
+	- err_a9a_a10a - displayed if chk_a9a_a10a != 1
+	- err_a9b_a10b - displayed if chk_a9b_a10b != 1
+	- err_a13 - displayed if chk_a13 != 1
+	- err_b2 - displayed if chk_b2 != 1
+** Note fields to display additional information, they can be removed
+	- nt_xx
+** Text fields used to jump between sections 'jump_', they can be removed
+
+*** TODOs
+	- make sure there's only one head selected - done
+
+*** Questions
+	- is section B2 asked only for the members three months or more
+	- what's the minimum age persons can be parents (aux_female, aux_male)
+	- only interested in the parents of the measured children?
+
