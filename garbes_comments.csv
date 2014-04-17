@@ -33,8 +33,17 @@
 	- aux_b2 - field to track the hh head to be set only once
 	- aux_male(B) - field to track list of male IDs and names
 	- aux_female(B) - field to track list of female IDs and names
-	- aux_all_male - list of all male used in Child Anthropometry section C
-	- aux_all_female - list of all female used in Child Anthropometry section C
+	- aux_all_male(C) - list of all male used in Child Anthropometry section C
+	- aux_all_female(C) - list of all female used in Child Anthropometry section C
+	- aux_height_male_min(C) - pulled fields
+	- aux_height_male_max(C)
+	- aux_height_female_min(C)
+	- aux_height_female_max(C)
+	- aux_weight_male_min(C)
+	- aux_weight_male_max(C)
+	- aux_weight_female_min(C)
+	- aux_weight_female_max(C)
+	- aux_e_rel(E) - 1 if parcel is relevant, 2 otherwise
 ** Current fields
 	- curr_a9a_a10a - date and time when enumertor reaches the start of the first section
 	- curr_a9b_a10b - date and time when enumertor reaches the start of the second section
@@ -66,4 +75,5 @@
 	- is section B2 asked only for the members three months or more
 	- what's the minimum age persons can be parents (aux_female, aux_male)
 	- only interested in the parents of the measured children?
+	- what are valud values for E3a, E6a?
 
