@@ -13,6 +13,7 @@
 	- id_e = id parcel
 	- id_f = id plot
 	- id_g1 = id crop (not the crop code)
+	- id_g2_1 = parcel ID, id_g2_2 = plot id, id_g2_3 = crop id(in repeat)
 
 
 * Extra fields in the output data:
