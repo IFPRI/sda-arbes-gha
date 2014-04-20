@@ -7,6 +7,12 @@
 * Adapted/Changed field names
 ** ID fields
 	- id_b = id in section B
+	- id_b2 = id in section B2 (labour)
+	- id_c = id child
+	- id_d = id woman
+	- id_e = id parcel
+	- id_f = id plot
+	- id_g1 = id crop (not the crop code)
 
 
 * Extra fields in the output data:
@@ -44,6 +50,11 @@
 	- aux_weight_female_min(C)
 	- aux_weight_female_max(C)
 	- aux_e_rel(E) - 1 if parcel is relevant, 2 otherwise
+	- aux_g1_6 (G1) - sum of percentage area planted with one crop, 100 - correct
+	- aux_x_e3a, aux_x_e3b - parcel area value and unit
+	- aug_g1_6 - sum of percentages of crop areas within plot
+	- aux_g1_5a - sum of areas (crops), should be equal to parcel area
+	- aux_g1_3_list - list of crop codes ' '- separated
 ** Current fields
 	- curr_a9a_a10a - date and time when enumertor reaches the start of the first section
 	- curr_a9b_a10b - date and time when enumertor reaches the start of the second section
@@ -59,21 +70,37 @@
 	- chk_weight_female (C) = check if female child weight is within limits. 1 - correct
 	- chk_weights_heights (C) = check if there's any child weight or height outside the limits. 1 - correct
 	- chk_d7_d8 (D) = value of maximum weight or height of woman, notify if > 250
+	- err_g1_5a (G1) = 
+	- chk_g1_6 (G1) = check sum of percentage of area planted with crops within plots. 1 - correct, 2 - fishy. Takes f4a(Fallow) and f14a(Trees) into account ( 1 - if percentages add up to 100 and no fallowing and no trees or percentages < 95 and some fallowing and some trees, 2 - otherwise)
+	- chk_g1_5a = 1 if sum of areas planted with crop equal(or less for parcels left fallowing or with trees) the parcel area, 2 otherwise
+
 ** Error/Warning notes displayed for the supervisor at the end, can be removed
 	- err_a9a_a10a - displayed if chk_a9a_a10a != 1
 	- err_a9b_a10b - displayed if chk_a9b_a10b != 1
 	- err_a13 - displayed if chk_a13 != 1
 	- err_b2 - displayed if chk_b2 != 1
+	- err_g1_5a - displayed if chk_g1_5a = 2
+	- err_g1_6 - displayed if chk_g1_6 = 2
 ** Note fields to display additional information, they can be removed
 	- nt_xx
 ** Text fields used to jump between sections 'jump_', they can be removed
 
 *** TODOs
 	- make sure there's only one head selected - done
-
+	- gps collection E18 after livestock
+	- not assume the area units are the same in G1 as in E, pull from csv
 *** Questions
 	- is section B2 asked only for the members three months or more
 	- what's the minimum age persons can be parents (aux_female, aux_male)
 	- only interested in the parents of the measured children?
 	- what are valud values for E3a, E6a?
+	- valid ranges for F14, F13a, F7a
+	- can I force crop area units to parcel area units
+
+
+if ((${aux_g1_e3a} = ${aux_g1_5a} and ${aux_f4a} = 2 and ${aux_f14a} = 0) or ((${aux_g1_5a}/${aux_g1_e3a} < 0.95 and (${aux_f4a} = 1 or ${aux_f14a} > 0)), 1, 2)
+
+if (${aux_g1_e3a} != ${aux_g1_5a}, 1, 2)
+
+
 
