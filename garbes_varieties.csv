@@ -1,0 +1,53 @@
+variety_id,variety_name,crop_id,crop_name
+110,Obaatampa,11,Maize
+111,Okomasa,11,Maize
+112,Mamaba,11,Maize
+113,Dadaba,11,Maize
+114,Abelehi,11,Maize
+115,Omankwa,11,Maize
+116,Enii-Pibi,11,Maize
+117,PANA\Hybrid,11,Maize
+118,ETUBI\Hybrid,11,Maize
+119,Aburohemaa,11,Maize
+1101,Abrotia,11,Maize
+1102,Golden Jubilee,11,Maize
+119,Other maize variety,11,Maize
+160,Marhal Perfume,16,Rice
+161,Bouake 189,16,Rice
+162,ITA 320,16,Rice
+163,ITA 324,16,Rice
+164,Togo Marshal,16,Rice
+165,Jasmine 85,16,Rice
+166,Torks,16,Rice
+169,Other rice variety,16,Rice
+220,Enidaso,22,Soybean
+221,Jenguma,22,Soybean
+222,Soung-Pun,22,Soybean
+223,Sonda,22,Soybean
+224,Afayak,22,Soybean
+225,Salintuya 1,22,Soybean
+226,Songotra,22,Soybean
+227,Quarshie,22,Soybean
+229,Other bean variety ,22,Soybean
+250,Zaayura,25,Cowpea
+251,Paditua,25,Cowpea
+252,Apagbaala,25,Cowpea
+259,Others,25,Cowpea
+270,Chinese,27,Groundnut
+279,Other groundnut variety ,27,Groundnut
+320,Roma,32,Tomatoes
+321,Manglo,32,Tomatoes
+329,Other tomato variety ,32,Tomatoes
+550,Sweet,55,Cassava
+551,Bitter,55,Cassava
+552,Ampong,55,Cassava
+553,Bankye Broni,55,Cassava
+554,Sika Bankye,55,Cassava
+555,Otuhia,55,Cassava
+559,Other cassava variety,55,Cassava
+710,Stamp,71,Cotton
+711,FK37,71,Cotton
+719,Other cotton variety,71,Cotton
+430,Red,53,Sweet potato
+431,White,53,Sweet potato
+439,Other sweet potato variety,53,Sweet potato
