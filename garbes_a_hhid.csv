@@ -1,4 +1,4 @@
-hhid,head_name,community_id,community_name,district_id,district_name,region_id,region_name,head_age,head_gender,spouse_name,spouse_age,hh_members,land,land_minutes,Minutes
+hhid_key,head_name,community_id,community_name,district_id,district_name,region_id,region_name,head_age,head_gender,spouse_name,spouse_age,hh_members,land,land_minutes,Minutes
 1,Mahama Ababasa,35,Pase,1,Wa West,10,Upper West region,52,1,Mahama Asiga,45,2,1,10
 2,Kawna Ang-inuma,35,Pase,1,Wa West,10,Upper West region,44,1,Ang-inuma Wa-nama,39,5,1,20
 3,Faganaa,35,Pase,1,Wa West,10,Upper West region,59,1,Yaa,30,11,1,15

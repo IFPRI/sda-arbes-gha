@@ -1,4 +1,4 @@
-variety_id,variety_name,crop_id,crop_name
+variety_key,variety_name,crop_id,crop_name
 110,Obaatampa,11,Maize
 111,Okomasa,11,Maize
 112,Mamaba,11,Maize
@@ -11,7 +11,7 @@ variety_id,variety_name,crop_id,crop_name
 119,Aburohemaa,11,Maize
 1101,Abrotia,11,Maize
 1102,Golden Jubilee,11,Maize
-129,Other maize variety,11,Maize
+1199,Other maize variety,11,Maize
 160,Marhal Perfume,16,Rice
 161,Bouake 189,16,Rice
 162,ITA 320,16,Rice

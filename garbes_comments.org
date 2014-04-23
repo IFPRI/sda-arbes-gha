@@ -134,6 +134,9 @@
 	- not assume the area units are the same in G1 as in E, pull from csv - done
 	- conditions in H and I - done
 	- check j1_15a if jr:choice-name works without definint a list - doesnt' work, to replace with pull labels
+	- important  - Area of the parcel. This could be done summing up the area in G1_4 across the same G1_1 and then compare it directly with E3.
+	- % of each crop in each plot. This could be calculated as the ratio between G1_4 for each line G1_3 across the same G1_2 in each G1_1. This ratio should be equal to G1_5 for each G1_3 in each G1_2 in each G1_1.
+	- somethin in B9
 *** Questions
 	- is section B2 asked only for the members three months or more y
 	- what's the minimum age persons can be parents (aux_female, aux_male) 14
