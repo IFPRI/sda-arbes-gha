@@ -1,0 +1,50 @@
+crop_key,crop_id,crop_name
+1,11,Maize
+2,12,Wheat
+3,13,Pearl millet
+4,14,Sorghum
+5,15,Finger millet
+6,16,Rice
+7,19,Other cereals
+8,21,Bean
+9,22,Soybean
+10,23,Pigeonpea
+11,24,Chickpea
+12,25,Cowpea
+13,26,Peas
+14,27,Groundnut
+15,28,Bambara nuts
+16,29,'Other pulses, nuts'
+17,31,Cabbage
+18,32,Tomatoes
+19,33,Okra
+20,34,Amaranthus
+21,35,Red pepper
+22,36,Green pepper
+23,37,Garden Eggs
+24,38,Ayoyo
+25,39,Bitter Leaves
+26,40,Carrots
+27,41,Watermelon
+28,49,Other vegetables
+29,51,Onion
+30,52,Irish potato
+31,53,Sweet potato
+32,54,Garlic
+33,55,Cassava
+34,56,Ginger
+35,59,'Other roots, tubers'
+36,61,Avocado
+37,62,Banana
+38,63,Mango
+39,64,Orange
+40,65,Pawpaw/Papaya
+41,66,Dawadawa
+42,67,Oil palm
+43,68,Sugar cane
+44,69,Other perennial
+45,71,Cotton
+46,72,Baobab
+47,73,Tobacco
+48,74,Shea Nut
+49,79,Other crops
