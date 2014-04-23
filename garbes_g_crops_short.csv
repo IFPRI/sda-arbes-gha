@@ -1,23 +1,23 @@
-crop_id,crop_name
-11,Maize
-12,Wheat
-13,Pearl millet
-14,Sorghum
-15,Finger millet
-16,Rice
-21,Bean
-22,Soyabean
-23,Pigeonpea
-24,Chick-peas
-25,Cow-peas
-26,Peas
-27,Groundnut
-28,Bambara nuts
-31,Cabbage
-32,Tomatoes
-35,Red pepper
-36,Green pepper
-51,Onion
-52,Irish potato
-53,Sweet potato
-71,Cotton
+crop_key,crop_id,crop_name,crop_has_varieties
+1,11,Maize,1
+2,12,Wheat,0
+3,13,Pearl millet,0
+4,14,Sorghum,0
+5,15,Finger millet,0
+6,16,Rice,1
+7,21,Bean,0
+8,22,Soyabean,1
+9,23,Pigeonpea,0
+10,24,Chick-peas,0
+11,25,Cow-peas,1
+12,26,Peas,0
+13,27,Groundnut,1
+14,28,Bambara nuts,0
+15,31,Cabbage,0
+16,32,Tomatoes,1
+17,35,Red pepper,0
+18,36,Green pepper,0
+19,51,Onion,0
+20,52,Irish potato,0
+21,53,Sweet potato,0
+22,71,Cotton,1

@@ -85,7 +85,8 @@
 	- aux_e2_ha - parcel area(declared) in hectare
 	- aux_min_e18 - minimum area of all parcels (to check if any parce has measured area = 0 only 2 points measured)
 	- aux_e18_per - percentage difference between measured area and declared area
-	- aux_g2_rel - crop has been selected within G1, true/false
+	- aux_g2_rel - crop has been selected within G1, true/falseaux_g4_1
+	- aux_g4_1 - crop has/doesn't have varieties
 ** Point coordinates
 	- points - group of points
 	- point_id - point id
@@ -149,6 +150,7 @@
 *** Other
 	- replace ^(\d+)[ ] with $1\t - to repalce first space after number with tab
 	- important to maintain similar g1_3_list and garbes_g_crops_long.csv plus count of repeat_g2 = total number of crops
+	- crop_has_varieties from garbes_g_crops_short.csv should match with garbes_g_varieties.csv
 
 
 
