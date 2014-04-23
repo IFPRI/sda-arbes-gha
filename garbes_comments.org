@@ -61,27 +61,38 @@
 	- aux_weight_female_max(C)
 	- aux_age - Calculated age based on declared birth month and year (D)
 	- aux_e_rel(E) - 1 if parcel is relevant, 2 otherwise
-	- aux_g1_6 (G1) - sum of percentage area planted with one crop, 100 - correct
 	- aux_x_e3a, aux_x_e3b - parcel area value and unit
 	- aug_g1_6 - sum of percentages of crop areas within plot
-	- aux_g1_5a - sum of areas (crops), should be equal to parcel area
+	- aux_g1_4a - sum of areas (crops), should be equal to parcel area
 	- aux_g1_3_list - list of crop codes ' '- separated
 	- aux_g4_1 - list of all crops
+	- g1_4b_ha - G1 - crop area in ha
+	- aux_g1_4_2 - sum of area in ha per plot
+	- aux_g1_4_1 - sum of area in ha per parcel - should equal parcel area (more or less - fallow/trees)
+	- aux_g1_5_2 - sum of percentages per plot, should add to 100
+	- aux_f4a_1	- any portion of the parcel was left fallow
+	- aux_f14a_1 - any trees on the parcel
+	- aux_g1_4_per - percentage difference between sum of crop areas and parcel area in ha
 	- aux_h1_list - list of selected crops in G1
 	- aux_h1 - h1/crop label
 	- aux_i_list - list of crops in I
 	- aux_j1_1_list - list of animals in J1
 	- aux_j1_3 - to test if the respondent has idea of any of the listed animal types
 	- aux_j2_1_list - list of animals in J2
-	- e3_ha - parcel area in ha 
+	- e3_ha - parcel area in ha
 	- aux_e18 (inside repeat_e2) - ${}
 	- aux_e2_ha_coef - conversion coef to hectares
 	- aux_e2_ha - parcel area(declared) in hectare
 	- aux_min_e18 - minimum area of all parcels (to check if any parce has measured area = 0 only 2 points measured)
-	- aux_e18 - to evaluate difference between declared area in e3 and measure area in e18
-	- aux_g1_4b_ha - G1 - crop area in ha
+	- aux_e18_per - percentage difference between measured area and declared area
+	- aux_g2_rel - crop has been selected within G1, true/false
 ** Point coordinates
+	- points - group of points
+	- point_id - point id
 	- point_e18 - point coordinate of parcel
+	- aux_g2_all_crops - G2 list of all crops, long format
+
+
 ** Current fields
 	- curr_a9a_a10a - date and time when enumertor reaches the start of the first section
 	- curr_a9b_a10b - date and time when enumertor reaches the start of the second section
@@ -98,9 +109,9 @@
 	- chk_weight_female (C) = check if female child weight is within limits. 1 - correct
 	- chk_weights_heights (C) = check if there's any child weight or height outside the limits. 1 - correct
 	- chk_d7_d8 (D) = value of maximum weight or height of woman, notify if > 250
-	- err_g1_5a (G1) =
-	- chk_g1_6 (G1) = check sum of percentage of area planted with crops within plots. 1 - correct, 2 - fishy. Takes f4a(Fallow) and f14a(Trees) into account ( 1 - if percentages add up to 100 and no fallowing and no trees or percentages < 95 and some fallowing and some trees, 2 - otherwise)
-	- chk_g1_5a = 1 if sum of areas planted with crop equal(or less for parcels left fallowing or with trees) the parcel area, 2 otherwise
+	- chk_g1_5 (G1) = check sum of percentage of area planted with crops within plots. 1 - correct, 2 - fishy. Takes f4a(Fallow) and f14a(Trees) into account ( 1 - if percentages add up to 100 and no fallowing and no trees or percentages < 95 and some fallowing and some trees, 2 - otherwise)
+	- chk_g1_4 = 1 if sum of areas planted with crop equal(or less for parcels left fallowing or with trees) the parcel area, 2 otherwise
+	- chk_g1_4_per - percentage difference between sum of crop areas and parcel area in ha
 	- chk_e18 = 1 - correct, 2- incorrect (there's at least one parcel for which the measured area and declared area differ by more than 10%)
 	- e18 = 0  only 2 points have been captured
 	- chk_e18_1 - measured and declared areas difer by more than 10% for the parcel id_e2
@@ -118,10 +129,10 @@
 
 *** TODOs
 	- make sure there's only one head selected - done
-	- gps collection E18 after livestock
-	- not assume the area units are the same in G1 as in E, pull from csv
-	- conditions in H and I
-	- check j1_15a if jr:choice-name works without definint a list
+	- gps collection E18 after livestock - done
+	- not assume the area units are the same in G1 as in E, pull from csv - done
+	- conditions in H and I - done
+	- check j1_15a if jr:choice-name works without definint a list - doesnt' work, to replace with pull labels
 *** Questions
 	- is section B2 asked only for the members three months or more y
 	- what's the minimum age persons can be parents (aux_female, aux_male) 14
@@ -132,15 +143,12 @@
 	- is the crop list at G4 same as the list in G1
 	- need to -11, -16 instead of -99 for G4_8
 *** Questions SurveyCTO
-	- hide fields without disabling
-	- lowercase
+	- hide fields without disabling - cant' do
+	- lowercase - cant do
 
 *** Other
 	- replace ^(\d+)[ ] with $1\t - to repalce first space after number with tab
-
-if ((${aux_g1_e3a} = ${aux_g1_5a} and ${aux_f4a} = 2 and ${aux_f14a} = 0) or ((${aux_g1_5a}/${aux_g1_e3a} < 0.95 and (${aux_f4a} = 1 or ${aux_f14a} > 0)), 1, 2)
-
-if (${aux_g1_e3a} != ${aux_g1_5a}, 1, 2)
+	- important to maintain similar g1_3_list and garbes_g_crops_long.csv plus count of repeat_g2 = total number of crops
 
 
 
