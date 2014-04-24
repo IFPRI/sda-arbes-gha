@@ -20,7 +20,7 @@
 	- id_j1 - animal Id in J1
 	- id_j2 - animal Id in J2
 	- id_e2 - parcel id in section E2 (made up section to collect parcel coordinates)
-	- id_e18 - point id within repeat_e18
+	- id_e18 - id of the parcel for which the area is measured
 * Extra fields in the output data:
 ** All columns begin with have 'section_x-'
 ** Repeat groups begin with 'repeat_'
@@ -86,8 +86,10 @@
 	- aux_min_e18 - minimum area of all parcels (to check if any parce has measured area = 0 only 2 points measured)
 	- aux_e18_per - percentage difference between measured area and declared area
 	- aux_g2_rel - crop has been selected within G1, true/falseaux_g4_1
-	- aux_g4_1 - crop has/doesn't have 
+	- aux_g4_1 - crop has/doesn't have
 	- aux_g1_4_tot - estimated total area on the plot
+	- aux_parcel - list of one parcel id, area, distance
+	- aux_all_parcels - list of all parcel ids, areas and distance
 ** Point coordinates
 	- points - group of points
 	- point_id - point id
@@ -140,10 +142,15 @@
 	- important  - Area of the parcel. This could be done summing up the area in G1_4 across the same G1_1 and then compare it directly with E3.
 	- % of each crop in each plot. This could be calculated as the ratio between G1_4 for each line G1_3 across the same G1_2 in each G1_1. This ratio should be equal to G1_5 for each G1_3 in each G1_2 in each G1_1.
 	- somethin in B9
-	
+
 *** Questions after training
 	- Do we add None in F16
-
+	- F7c allows decimals
+	- is G4_9 refering to problems of the corresponding(a/b/c) variety in G4_8 or problems in general?
+	- allow decimal in H2d
+	- F5a - if the plot is used for livestock, it shouldn't ask this question
+	- F4b, F4c - validation 2014 >= F4b + F4c
+	- what is G1_6 if the crop is used for livestock
 
 *** Questions
 	- is section B2 asked only for the members three months or more y
