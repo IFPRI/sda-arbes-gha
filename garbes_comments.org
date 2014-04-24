@@ -86,7 +86,8 @@
 	- aux_min_e18 - minimum area of all parcels (to check if any parce has measured area = 0 only 2 points measured)
 	- aux_e18_per - percentage difference between measured area and declared area
 	- aux_g2_rel - crop has been selected within G1, true/falseaux_g4_1
-	- aux_g4_1 - crop has/doesn't have varieties
+	- aux_g4_1 - crop has/doesn't have 
+	- aux_g1_4_tot - estimated total area on the plot
 ** Point coordinates
 	- points - group of points
 	- point_id - point id
@@ -117,6 +118,8 @@
 	- e18 = 0  only 2 points have been captured
 	- chk_e18_1 - measured and declared areas difer by more than 10% for the parcel id_e2
 	- chk_e18 - There is at least one parce for which the measured and declared areas differ by more than 10%
+	- chk_g1_5_2 - sum of percentages of areas occupied by crops within plot (1 - ok, 2, - not ok)
+	- chk_g1_4_5 - check areas and percentages (1 - ok, 2 - not ok)
 ** Error/Warning notes displayed for the supervisor at the end, can be removed
 	- err_a9a_a10a - displayed if chk_a9a_a10a != 1
 	- err_a9b_a10b - displayed if chk_a9b_a10b != 1
@@ -137,6 +140,11 @@
 	- important  - Area of the parcel. This could be done summing up the area in G1_4 across the same G1_1 and then compare it directly with E3.
 	- % of each crop in each plot. This could be calculated as the ratio between G1_4 for each line G1_3 across the same G1_2 in each G1_1. This ratio should be equal to G1_5 for each G1_3 in each G1_2 in each G1_1.
 	- somethin in B9
+	
+*** Questions after training
+	- Do we add None in F16
+
+
 *** Questions
 	- is section B2 asked only for the members three months or more y
 	- what's the minimum age persons can be parents (aux_female, aux_male) 14
