@@ -48,3 +48,10 @@ crop_key,crop_id,crop_name
 47,73,Tobacco
 48,74,Shea Nut
 49,79,Other crops
+50,81,Fallow
+51,82,Pasture/grazing
+52,83,Planted fodder
+53,84,Planted trees
+54,85,Natural trees
+55,89,Other uses
+
