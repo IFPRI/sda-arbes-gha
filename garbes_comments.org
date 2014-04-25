@@ -151,6 +151,7 @@
 	- F5a - if the plot is used for livestock, it shouldn't ask this question
 	- F4b, F4c - validation 2014 >= F4b + F4c
 	- what is G1_6 if the crop is used for livestock
+	- is I9 only asked once? for which crop
 
 *** Questions
 	- is section B2 asked only for the members three months or more y
