@@ -1,0 +1,52 @@
+select_one yes_no	k2	K2. Have you received advice/information on vegetable gardens, crops, livestock, or soil and natural resource management from ${l1_label} in the last 12 months?
+select_one k3_list	k3	K3. Is ${l1_label} among the three most important sources you would prefer to ask/seek advice/information?
+select_one k4_list	k4	K4. During the last cropping season, how often did [SOURCE] have interaction with you to exchange advice on farming/raising livestock?
+integer	k5	K5. How far is your local Farmer Training Center (one way and in minutes) using the usual mode of transport? (min)
+select_one yes_no	k6	K6. Have you ever participated in the activities of your Farmer Training Center?
+integer	k7	K7. Think of the agricultural extension/development agent you interact with the most. How long have you known that agent?
+select_one yes_no	k8	K8. Have you tried any new agricultural technologies/management practices during the last farming season?
+select_one yes_no	k9	K9. Have these been new activities your agent has demonstrated to you?
+select_one yes_no_applicable	k10	K10. Are you a member of your community's farmer research group?
+select_one yes_no_applicable	k11	K11. Have you ever used a new technology that you have seen at your research group activity or field day?
+select_one yes_no	k12 K12. Have you/your household ever participated in any group that focuses on the conservation of natural resources?
+select_one yes_no	k13	K13. Do you/your household  currently participate in any social organization?
+select_one yes_no	k14	K14. Are you/your household satisfied with quantity, quality and timeliness of extension and input supply services?
+select_one yes_no	k15	K15. Have you heard of Africa RISING program?
+select_one yes_no	k16	K16. Have you ever participated in any activity as part of/organized by Africa RISING program?
+select_one k17_list	k17a	K17a. Which Africa RISING-related activity did you get involved in? (1st)
+select_one k17_list	k17c	K17b. Which Africa RISING-related activity did you get involved in? (2nd)
+select_one k17_list	k17c	K17c. Which Africa RISING-related activity did you get involved in? (3rd)
+select_one yes_no	k18	K18. Do you plan to continue participating in Africa RISING activities in the next planting season?
+select_one k19_list	k19a	K19a. What are your reasons for not participating in Africa RISING activities? (1st)
+select_one k19_list	k19b	K19b. What are your reasons for not participating in Africa RISING activities? (2nd)
+select_one k19_list	k19c	K19c. What are your reasons for not participating in Africa RISING activities? (3rd)
+
+k1_list	1	Friend/neighbor
+k1_list	2	Model farmer
+k1_list	3	Other farmer
+k1_list	4	Farmer's group
+k1_list	5	Agricultural development/ extension agent
+k3_list	1	Yes, 1st most important
+k3_list	2	Yes, 2nd most important
+k3_list	3	Yes, 3rd most important
+k3_list	4	Not among the three important sources
+k4_list	1	At least once every week
+k4_list	2	Not weekly but at least once every month
+k4_list	3	Not every month but at least once during the cropping season
+k4_list	4	Just once
+k4_list	5	Never
+k4_list	6	Other
+k17_list	1	Community meetings
+k17_list	2	Trainings
+k17_list	3	On-farm experimentation of new or improved agricultural technology
+k17_list	4	Demonstration field days
+k17_list	5	Other
+k19_list	1	Not relevant to my activities
+k19_list	2	Technology not appropriate
+k19_list	3	Too expensive
+k19_list	4	Too risky
+k19_list	5	Prefer to be on my own
+k19_list	6	Not enough information
+k19_list	7	No time
+k19_list	8	I was turned down
+k19_list	9	Other

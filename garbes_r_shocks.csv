@@ -1,0 +1,23 @@
+r_key,r_id,r_name
+1,101,Drought or floods
+2,102,Strong winds/storms
+3,103,Crop disease or pests
+4,104,Livestock died or stolen
+5,105,"Household business failure, non-agricultural"
+6,106,Loss of salaried employment or non-payment of salary
+7,107,Large fall in sale prices for crops
+8,108,Large rise in price of food
+9,109,Large rise in agricultural input prices
+10,110,Severe water shortage
+11,111,Loss of land
+12,112,Chronic/severe illness or accident of household member
+13,113,Death of a member of household
+14,114,Death of other family member
+15,115,"Break-up of the household  (e.g.,divorce, separation)"
+16,116,Jailed
+17,117,Fire
+18,118,Hijacking/robbery/burglary/assault
+19,119,"Dwelling damaged, destroyed"
+20,120,Immediate needs of money and selling crop at lowest price
+21,121,"Political, tribal, and farmers' livestock conflict"
+22,122,Other

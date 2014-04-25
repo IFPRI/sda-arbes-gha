@@ -1,0 +1,40 @@
+o1	O1. In the past 7 days, did you worry that your household would not have enough food?
+o2	O2a. In the past 7 days, how many days have you or someone in your household had to rely on less preferred foods?
+o2	O2b. In the past 7 days, how many days have you or someone in your household had to limit the variety of foods eaten?
+o2	O2c. In the past 7 days, how many days have you or someone in your household had to limit portion size at meal-times?
+o2	O2d. In the past 7 days, how many days have you or someone in your household had to reduce number of meals eaten in a day?
+o2	O2e. In the past 7 days, how many days have you or someone in your household had to restrict consumption by adults for small children to eat?
+o2	O2f. In the past 7 days, how many days have you or someone in your household had to borrow food, or rely on help from a friend or relative?
+o2	O2g. In the past 7 days, how many days have you or someone in your household had to have no food of any kind in your household?
+o2	O2h. In the past 7 days, how many days have you or someone in your household had to go a whole day and night without eating anything?
+o2	O2i. In the past 7 days, how many days have you or someone in your household had to harvest and collect wild foods  (e.g., vegetables, birds)?
+o3	O3a. How many meals, including breakfast are taken per day in the household?
+o3	O3b. How many meals, including breakfast are taken per day among children (6-59 months)?
+o4	O4. What did your children below 5 years old (0-4 years) have for breakfast yesterday?
+o5	O5. What did your children between 5 to 13 years old have for breakfast yesterday?
+o6	O6. Do all household members eat roughly the same diet?
+o7	O7a. Who and how many in the household usually eat a more diverse variety of foods, a less diverse variety of foods, (including food consumed outside the house)? (Men)
+o7	O7b. Who and how many in the household usually eat a more diverse variety of foods, a less diverse variety of foods, (including food consumed outside the house)? (Women)
+o7	O7c. Who and how many in the household usually eat a more diverse variety of foods, a less diverse variety of foods, (including food consumed outside the house)? (Children (6-59 months))
+o8	O8. In the last 12 months, have you been faced with a situation when you did not have enough quantity of food to feed the household?
+o9	O9a. Did you experience shortage of food in January, 2013?
+o9	O9b. Did you experience shortage of food in February, 2013?
+o9	O9c. Did you experience shortage of food in March, 2013?
+o9	O9d. Did you experience shortage of food in April, 2013?
+o9	O9e. Did you experience shortage of food in May, 2013?
+o9	O9f. Did you experience shortage of food in June, 2013?
+o9	O9g. Did you experience shortage of food in July, 2013?
+o9	O9h. Did you experience shortage of food in August, 2013?
+o9	O9i. Did you experience shortage of food in September, 2013?
+o9	O9j. Did you experience shortage of food in October, 2013?
+o9	O9k. Did you experience shortage of food in November, 2013?
+o9	O9l. Did you experience shortage of food in December, 2013?
+o10	O10a. Did you experience shortage of food in January, 2014?
+o10	O10b. Did you experience shortage of food in February, 2014?
+o10	O10c. Did you experience shortage of food in March, 2014?
+o10	O10d. Did you experience shortage of food in April, 2014?
+o10	O10e. Did you experience shortage of food in May, 2014?
+o10	O10f. Did you experience shortage of food in June, 2014?
+o11	O11a. What was the cause of this situation? (1st)
+o11	O11b. What was the cause of this situation? (2nd)
+o11	O11c. What was the cause of this situation? (3rd)

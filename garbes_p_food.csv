@@ -1,0 +1,87 @@
+p_key,categ_id,categ_name,food_id,food_name
+1,1,Cereals and Cereal products,0101,White maize
+2,1,Cereals and Cereal products,0102,Yellow maize
+3,1,Cereals and Cereal products,0103,Sorghum/guinea corn
+4,1,Cereals and Cereal products,0104,Early millet
+5,1,Cereals and Cereal products,0105,Late millet
+6,1,Cereals and Cereal products,0106,Rice
+7,1,Cereals and Cereal products,0107,Other grains
+8,1,Cereals and Cereal products,0108,"Buns, cakes and biscuits"
+9,1,Cereals and Cereal products,0109,"Macaroni, spaghetti"
+10,1,Cereals and Cereal products,0199,Other cereal products
+11,2,Starches,0201,Cassava fresh
+12,2,Starches,0202,Cassava dry/flour
+13,2,Starches,0203,Sweet potatoes
+14,2,Starches,0204,Frafra potatoes
+15,2,Starches,0205,Yams
+16,2,Starches,0206,Cocoyams
+17,2,Starches,0207, Plantains
+18,2,Starches,0299,Other starches
+19,3,Sugar and Sweets,0301,Sugar
+20,3,Sugar and Sweets,0302,Sugarcane
+21,3,Sugar and Sweets,0303,Sweets
+22,3,Sugar and Sweets,0304,"Honey, syrups, jams, marmalade, jellies, canned fruits"
+23,3,Sugar and Sweets,0399,Other sweets
+24,4,Pulses,0401,"Peas, beans, lentils"
+25,4,Pulses,0402,Cow peas
+26,4,Pulses,0499,Other pulses
+27,5,Nuts and Seeds,0501,Groundnuts in shell/shelled
+28,5,Nuts and Seeds,0502,Bambara nuts
+29,5,Nuts and Seeds,0503,Seeds and products from nuts/seeds (excl. cooking oil)
+30,5,Nuts and Seeds,0504,Wild nuts and seeds
+31,5,Nuts and Seeds,0599,Other nuts and seeds
+32,6,Vegetables,0601,Onions
+33,6,Vegetables,0602,Spinach
+34,6,Vegetables,0603,Cabbage
+35,6,Vegetables,0604,Moringa
+36,6,Vegetables,0605,"Canned, dried and wild vegetables"
+37,6,Vegetables,0606,Tomatoes
+38,6,Vegetables,0607,Carrots
+39,6,Vegetables,0608,Green pepper
+40,6,Vegetables,0610,Wild vegetables
+41,6,Vegetables,0699,Other vegetables
+42,7,Fruits,0701,Ripe bananas
+43,7,Fruits,0702,"Citrus fruits (oranges, lemon, tangerines, etc.)"
+44,7,Fruits,0703,Mangoes
+45,7,Fruits,0704,Avocadoes
+46,7,Fruits,0705,Wild fruits
+47,7,Fruits,0799,Other fruits
+48,8,"Meat, meat products, fish",0801,Goat meat
+49,8,"Meat, meat products, fish",0802,Beef including minced sausage
+50,8,"Meat, meat products, fish",0803,Pork including sausages and bacon
+51,8,"Meat, meat products, fish",0804,Chicken and other poultry
+52,8,"Meat, meat products, fish",0805,"Wild birds, insects, mice"
+53,8,"Meat, meat products, fish",0806,Other domestic meat products
+54,8,"Meat, meat products, fish",0807,Bushmeat
+55,8,"Meat, meat products, fish",0808,Eggs
+56,8,"Meat, meat products, fish",0809,Fresh fish and other seafood
+57,8,"Meat, meat products, fish",0810,Smoked fish
+58,8,"Meat, meat products, fish",0811,Dried/salted fish
+59,8,"Meat, meat products, fish",0812,Package/Canned fish
+60,8,"Meat, meat products, fish",0899,Other meat
+61,9,Milk and milk products,0901,Fresh milk
+62,9,Milk and milk products,0902,Milk products
+63,9,Milk and milk products,0903,Canned milk/milk powder
+64,9,Milk and milk products,0999,Other dairy products
+65,10,Oil and fats,1001,Cooking oil
+66,10,Oil and fats,1002,"Butter, margarine, ghee"
+67,10,Oil and fats,1099,Other fat products
+68,11,Spices and other foods,1101,Salt
+69,11,Spices and other foods,1102,Saltpetre (kawa)
+70,11,Spices and other foods,1103,Pepper
+71,11,Spices and other foods,1104,Ginger
+72,11,Spices and other foods,1105,Ethiopian pepper
+73,11,Spices and other foods,1106,Dawadawa
+74,11,Spices and other foods,1199,Other spices
+75,12,Beverages,1201,Tea dry
+76,12,Beverages,1202,Coffee and cocoa
+77,12,Beverages,1203,Other raw materials for drinks
+78,12,Beverages,1204,"Bottled/canned soft drinks (soda, juice, water)"
+79,12,Beverages,1205,"Prepared tea, coffee"
+80,12,Beverages,1206,Bottled beer
+81,12,Beverages,1207,"Local brews (pito, sobolo, zomkom)"
+82,12,Beverages,1208,Wine and spirits
+83,12,Beverages,1299,Other
+84,13,Food outside the household ,1301,"Full meals (breakfast, lunch or dinner)"
+85,13,Food outside the household ,1302,"Barbecued meat, chips, roast bananas"
+86,13,Food outside the household ,1303,"Samosa, cake and other snacks"

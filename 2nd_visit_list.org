@@ -1,0 +1,29 @@
+k1_list	1	Friend/neighbor
+k1_list	2	Model farmer
+k1_list	3	Other farmer
+k1_list	4	Farmer's group
+k1_list	5	Agricultural development/ extension agent
+k3_list	1	Yes, 1st most important
+k3_list	2	Yes, 2nd most important
+k3_list	3	Yes, 3rd most important
+k3_list	4	Not among the three important sources
+k4_list	1	At least once every week
+k4_list	2	Not weekly but at least once every month
+k4_list	3	Not every month but at least once during the cropping season
+k4_list	4	Just once
+k4_list	5	Never
+k4_list	6	Other
+k17_list	1	Community meetings
+k17_list	2	Trainings
+k17_list	3	On-farm experimentation of new or improved agricultural technology
+k17_list	4	Demonstration field days
+k17_list	5	Other
+k19_list	1	Not relevant to my activities
+k19_list	2	Technology not appropriate
+k19_list	3	Too expensive
+k19_list	4	Too risky
+k19_list	5	Prefer to be on my own
+k19_list	6	Not enough information
+k19_list	7	No time
+k19_list	8	I was turned down
+k19_list	9	Other

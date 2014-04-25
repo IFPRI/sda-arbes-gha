@@ -1,0 +1,22 @@
+animal_key,animal_id,animal_name,animal_use
+1,100,Draught cattle,Rental/Cart
+2,101,Bulls -local-,Rental/Cart
+3,102,Bulls -improved-,Rental/Cart
+4,103,Fattening cattle -local-,Meat products
+5,104,Fattening cattle -improved-,Meat products
+6,105,Cows -local-,Dairy products
+7,106,Cows -improved-,Dairy products
+8,107,Heifers -local-,-
+9,108,Heifers -improved-,-
+10,109,Calves -local-,-
+11,110,Calves -improved-,-
+12,111,Horse/donkey/mule,Rental/Cart
+13,112,Goats -local-,Goat milk
+14,113,Goats -improved-,Goat milk
+15,114,Sheep,Wool/skins/milk
+16,115,Pigs -local-,-
+17,116,Pigs -improved-,-
+18,117,Chickens,Egg sales
+19,118,Fish,-
+20,119,Other livestock,-
+21,120,Honey bees (record number of occupied hives (not bees) in J1_6, J1_8, J1_10, J1_13; total value of hices in J1_7; and value per hice in J1_14),Honey/Wax sales

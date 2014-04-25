@@ -1,0 +1,48 @@
+n_key,categ_id,categ_name,asset_id,asset_name
+1,1,household,100,Improved charcoal/wood stove
+2,1,household,101,Kerosene stove
+3,1,household,102,Gas stove
+4,1,household,103,Wooden bed - modern
+5,1,household,104,Metal bed - modern
+6,1,household,105,Sofa chair
+7,1,household,106,Modern chair
+8,1,household,107,Modern table
+9,1,household,108,Radio
+10,1,household,109,Television
+11,1,household,110,Electric fan
+12,1,household,111,Refrigerator
+13,1,household,112,Land-line phone
+14,1,household,113,Mobile phone
+15,1,household,114,Bicycle
+16,1,household,115,Motorbike
+17,1,household,116,Car or truck
+18,1,household,117,Satellite dish
+19,1,household,118,Solar panel
+20,1,household,119,Wooden cabinets
+21,1,household,120,CD/DVD Player
+22,2,farm,200,Cutlass
+23,2,farm,201,Axe/pick-axe
+24,2,farm,202,Sprayer
+25,2,farm,203,Sickle
+26,2,farm,204,Ox-plough
+27,2,farm,205,Yoke
+28,2,farm,206,Harrow
+29,2,farm,207,Shovel
+30,2,farm,208,Hoe
+31,2,farm,209,Winnower
+32,2,farm,210,Animal cart
+33,2,farm,211,Power tiller
+34,2,farm,212,Tractor
+35,2,farm,213,Disc Plough
+36,2,farm,214,Ox-ridger
+37,2,farm,215,Ripper
+38,3,service,300,the nearest motorable road
+39,3,service,301,the nearest all-season road
+40,3,service,302,the nearest asphalt road
+41,3,service,303,the nearest weekly market place
+42,3,service,304,the nearest daily market place?
+43,3,service,305,the district capital
+44,3,service,306,the nearest place with daily bus stop or taxi service
+45,3,service,307,the nearest health care facility
+46,3,service,308,primary school
+47,3,service,309,secondary school
