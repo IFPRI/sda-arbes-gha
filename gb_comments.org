@@ -159,6 +159,8 @@
   
   - the fallow problem -> skip
   - age 9999
+  - E2, blocheaza
+  - P2 problem, nu trece
   - 
 *** Questions
   - is section B2 asked only for the members three months or more y
