@@ -156,7 +156,10 @@
   - F4b, F4c - validation 2014 >= F4b + F4c
   - what is G1_6 if the crop is used for livestock
   - is I9 only asked once? for which crop
-
+  
+  - the fallow problem -> skip
+  - age 9999
+  - 
 *** Questions
   - is section B2 asked only for the members three months or more y
   - what's the minimum age persons can be parents (aux_female, aux_male) 14
