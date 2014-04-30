@@ -1,4 +1,4 @@
-p_key,categ_id,categ_name,food_id,food_name
+p_key,categ_id,categ_name,p_id,p_name
 1,1,Cereals and Cereal products,101,White maize
 2,1,Cereals and Cereal products,102,Yellow maize
 3,1,Cereals and Cereal products,103,Sorghum/guinea corn
