@@ -93,6 +93,7 @@
   - aux_g1_4_tot - estimated total area on the plot
   - aux_parcel - list of one parcel id, area, distance
   - aux_all_parcels - list of all parcel ids, areas and distance
+  - aux_{section}_id - first time selection, to compare in case selection changes
 ** Point coordinates
   - points - group of points
   - point_id - point id
@@ -125,6 +126,7 @@
   - chk_e18 - There is at least one parce for which the measured and declared areas differ by more than 10%
   - chk_g1_5_2 - sum of percentages of areas occupied by crops within plot (1 - ok, 2, - not ok)
   - chk_g1_4_5 - check areas and percentages (1 - ok, 2 - not ok)
+  - chk_rm_{section} - text field within the repeat groups, if it's value = 'remove_group' the line needs to be removed - meaning that the enumerator selected one multichoice and he/she missed removing the group
 ** Error/Warning notes displayed for the supervisor at the end, can be removed
   - err_a9a_a10a - displayed if chk_a9a_a10a != 1
   - err_a9b_a10b - displayed if chk_a9b_a10b != 1
