@@ -14,7 +14,7 @@ g_key,g_id,g_name
 13,26,Peas
 14,27,Groundnut
 15,28,Bambara nuts
-16,29,'Other pulses, nuts'
+16,29,"Other pulses, nuts"
 17,31,Cabbage
 18,32,Tomatoes
 19,33,Okra
@@ -33,7 +33,7 @@ g_key,g_id,g_name
 32,54,Garlic
 33,55,Cassava
 34,56,Ginger
-35,59,'Other roots, tubers'
+35,59,"Other roots, tubers"
 36,61,Avocado
 37,62,Banana
 38,63,Mango
