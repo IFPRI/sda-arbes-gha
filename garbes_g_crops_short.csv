@@ -1,4 +1,4 @@
-crop_key,crop_id,crop_name,crop_has_varieties
+g_key,g_id,g_name,crop_has_varieties
 1,11,Maize,1
 2,12,Wheat,0
 3,13,Pearl millet,0
