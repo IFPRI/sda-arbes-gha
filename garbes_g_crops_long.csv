@@ -33,25 +33,26 @@ g_key,g_id,g_name
 32,54,Garlic
 33,55,Cassava
 34,56,Ginger
-35,59,"Other roots, tubers"
-36,61,Avocado
-37,62,Banana
-38,63,Mango
-39,64,Orange
-40,65,Pawpaw/Papaya
-41,66,Dawadawa
-42,67,Oil palm
-43,68,Sugar cane
-44,69,Other perennial
-45,71,Cotton
-46,72,Baobab
-47,73,Tobacco
-48,74,Shea Nut
-49,79,Other crops
-50,81,Fallow
-51,82,Pasture/grazing
-52,83,Planted fodder
-53,84,Planted trees
-54,85,Natural trees
-55,89,Other uses
+35,57,Yam
+36,59,"Other roots, tubers"
+37,61,Avocado
+38,62,Banana
+39,63,Mango
+40,64,Orange
+41,65,Pawpaw/Papaya
+42,66,Dawadawa
+43,67,Oil palm
+44,68,Sugar cane
+45,69,Other perennial
+46,71,Cotton
+47,72,Baobab
+48,73,Tobacco
+49,74,Shea Nut
+50,79,Other crops
+51,81,Fallow
+52,82,Pasture/grazing
+53,83,Planted fodder
+54,84,Planted trees
+55,85,Natural trees
+56,89,Other uses
 
