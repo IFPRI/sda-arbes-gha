@@ -20,4 +20,6 @@ g_key,g_id,g_name,crop_has_varieties
 19,51,Onion,0
 20,52,Irish potato,0
 21,53,Sweet potato,0
-22,71,Cotton,1
+22,55,Cassava,1
+23,57,Yam,0
+24,71,Cotton,1
