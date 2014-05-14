@@ -1,0 +1,85 @@
+ch_key,ch_id,ch_name
+1,101,White maize
+2,102,Yellow maize
+3,103,Sorghum/guinea corn
+4,104,Early millet
+5,105,Late millet
+6,106,Rice
+7,107,Other grains (please specify)
+8,108,"Buns, cakes and biscuits"
+9,109,"Macaroni, spaghetti"
+10,199,Other cereal products (please specify)
+11,201,Cassava fresh
+12,202,Cassava dry/flour
+13,203,Sweet potatoes
+14,204,Frafra potatoes
+15,205,Yams
+16,206,Cocoyams
+17,207, Plantains
+18,299,Other starches (please specify)
+19,301,Sugar 
+20,302,Sugarcane
+21,303,Sweets 
+22,304,"Honey, syrups, jams, marmalade, jellies, canned fruits"
+23,399,Other sweets (please specify)
+24,401,"Peas, beans, lentils"
+25,402,Cow peas 
+26,499,Other pulses (please specify)
+27,501,Groundnuts in shell/shelled
+28,502,Bambara nuts
+29,503,Seeds and products from nuts/seeds (excl. cooking oil)
+30,504,Wild nuts and seeds 
+31,599,Other nuts and seeds 
+32,601,Onions  
+33,602,Spinach 
+34,603,Cabbage
+35,604,Moringa
+36,605,"Canned, dried and wild vegetables"
+37,606,Tomatoes
+38,607,Carrots
+39,608,Green pepper
+40,609,Canned and dried vegetables
+41,610,Wild vegetables 
+42,699,Other vegetables (please specify)
+43,701,Ripe bananas
+44,702,"Citrus fruits (oranges, lemon, tangerines, etc.)"
+45,703,Mangoes
+46,704,Avocadoes
+47,705,Wild fruits 
+48,799,Other fruits
+49,801,Goat meat
+50,802,Beef including minced sausage
+51,803,Pork including sausages and bacon
+52,804,Chicken and other poultry
+53,805,"Wild birds, insects, mice"
+54,806,Other domestic meat products
+55,807,Bushmeat
+56,808,Eggs
+57,809,Fresh fish and other seafood 
+58,810,Smoked fish
+59,811,Dried/salted fish
+60,812,Package/Canned fish
+61,899,Other meat (please specify)
+62,901,Fresh milk
+63,902,Milk products
+64,903,Canned milk/milk powder
+65,999,Other dairy products (please specify)
+66,1001,Cooking oil
+67,1002,"Butter, margarine, ghee"
+68,1099,Other fat products (please specify)
+69,1101,Salt
+70,1102,Saltpetre (kawa)
+71,1103,Pepper 
+72,1104,Ginger 
+73,1105,Ethiopian pepper 
+74,1106,Dawadawa
+75,1199,Other spices (please specify)
+76,1201,Tea dry
+77,1202,Coffee and cocoa
+78,1203,Other raw materials for drinks 
+79,1204,"Bottled/canned soft drinks (soda, juice, water)"
+80,1205,"Prepared tea, coffee"
+81,1206,Bottled beer
+82,1207,"Local brews (pito, sobolo, zomkom)"
+83,1208,Wine and spirits
+84,1299,Other (please specify)

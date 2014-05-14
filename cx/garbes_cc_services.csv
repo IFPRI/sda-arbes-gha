@@ -1,0 +1,22 @@
+cc_key,cc_id,cc_name
+1,100,Region Headquarters
+2,101,District Headquarters
+3,102,Pre-primary school or nursery school-the nearest
+4,103,Primary school-the nearest
+5,104,Secondary school-the nearest
+6,105,Health center/clinic/hospital
+7,106,Market (daily)
+8,107,Market (weekly)
+9,108,Milling machine-the nearest
+10,109,"Bank, mobile money agent point, First National Savings and Loan, other credit institution"
+11,110,Agricultural extension services
+12,111,Police station or post-the nearest
+13,112,Post office-the nearest
+14,113,Community/Publicly owned tap water-the nearest
+15,114,Bus stop the nearest
+16,115,Slaughter slabs
+17,116,Veterinary centre/clinic
+18,117,Dip tank
+19,118,Primary market for livestock
+20,119,Milk collection center
+

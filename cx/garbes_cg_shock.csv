@@ -1,0 +1,14 @@
+cg_key,cg_id,cg_name
+1,101,Drought 
+2,102,Flood
+3,103,Strong winds/storm 
+4,104,Crop disease or pest
+5,105,Outbreak of livestock disease or pest
+6,106,Large fall in crop sale prices 
+7,107,Large rise in price of food
+8,108,Large rise in crop input prices
+9,109,Loss of land
+10,110,"Political, tribal, and farmers' livestock conflict"
+11,111,"Theft, vandalism, robberies"
+12,112,Fire
+13,113,Other

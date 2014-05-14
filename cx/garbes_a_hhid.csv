@@ -1,0 +1,26 @@
+ca_key,community_id,community_name,district_id,district_name,region_id,region_name
+1,1,Arigu,20,West Mamprusi,8,Northern Region
+2,2,Basigu,20,West Mamprusi,8,Northern Region
+3,6,Disiga,13,Salvelugu,8,Northern Region
+4,15,Gushie,13,Salvelugu,8,Northern Region
+5,19,Kadia,13,Salvelugu,8,Northern Region
+6,20,Karemiga,20,West Mamprusi,8,Northern Region
+7,22,Kpelung,13,Salvelugu,8,Northern Region
+8,24,Kokobila,13,Salvelugu,8,Northern Region
+9,25,Kukua,20,West Mamprusi,8,Northern Region
+10,27,Nabogu,13,Salvelugu,8,Northern Region
+11,28,Namiyilla,20,West Mamprusi,8,Northern Region
+12,30,Nasia,20,West Mamprusi,8,Northern Region
+13,36,Pigu,13,Salvelugu,8,Northern Region
+14,8,Fian,5,Nadowli,10,Upper West region
+15,12,Goripie,3,Wa East,10,Upper West region
+16,17,Issa,5,Nadowli,10,Upper West region
+17,29,Naro,5,Nadowli,10,Upper West region
+18,37,Sagie,5,Nadowli,10,Upper West region
+19,41,Tabiase,5,Nadowli,10,Upper West region
+20,42,Tanina,1,Wa West,10,Upper West region
+21,48,Wogu,5,Nadowli,10,Upper West region
+22,39,Shia,5,Talensi-Nabdam,9,Upper East region
+23,49,Yenduri,5,Talensi-Nabdam,9,Upper East region
+24,26,Laogri,20,West Mamprusi,8,Northern Region
+25,46,Tindan,13,Salvelugu,8,Northern Region
