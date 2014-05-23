@@ -1,0 +1,66 @@
+index,community_id,community_name,district_id,district_name,region_id,region_name,ca_key
+725,1,Arigu,20,West Mamprusi,8,Northern Region,1
+793,2,Basigu,20,West Mamprusi,8,Northern Region,2
+410,3,Bonia,3,Kassena-Nankana,9,Upper East region,3
+1247,4,Botingli,13,Salvelugu,8,Northern Region,4
+641,4,Bolingli,13,Salvelugu,8,Northern Region,5
+581,5,Cheyohi No.2,12,Tolon/Kumbungu,8,Northern Region,6
+1275,5,cheyohi No 2,12,Tolon/Kumbungu,8,Northern Region,7
+261,6,Disiga,13,Salvelugu,8,Northern Region,8
+62,7,Duko,13,Salvelugu,8,Northern Region,9
+904,8,Fian,5,Nadowli,10,Upper West region,10
+688,9,Gbanjon,12,Tolon/Kumbungu,8,Northern Region,11
+1355,9,Gbanjong,12,Tolon/Kumbungu,8,Northern Region,12
+407,10,Gia,3,Kassena-Nankana,9,Upper East region,13
+0,11,Goli,5,Nadowli,10,Upper West region,14
+869,12,Goripie,3,Wa East,10,Upper West region,15
+946,13,Goriyiri,5,Nadowli,10,Upper West region,16
+290,13,Goriliyi,5,Nadowli,10,Upper West region,17
+50,14,Guo,1,Wa West,10,Upper West region,18
+124,15,Gushie,13,Salvelugu,8,Northern Region,19
+413,16,Gylli,5,Nadowli,10,Upper West region,20
+941,16,Gyilli,5,Nadowli,10,Upper West region,21
+738,17,Issa,5,Nadowli,10,Upper West region,22
+39,18,Jana,13,Salvelugu,8,Northern Region,23
+21,18,Nabogu,13,Salvelugu,8,Northern Region,24
+83,19,Kadia,13,Salvelugu,8,Northern Region,25
+742,20,Karemiga,20,West Mamprusi,8,Northern Region,26
+230,21,Kpallung,13,Salvelugu,8,Northern Region,27
+609,22,Kpelung,13,Salvelugu,8,Northern Region,28
+694,23,Kpirim,12,Tolon/Kumbungu,8,Northern Region,29
+1455,23,Kprim,12,Tolon/Kumbungu,8,Northern Region,30
+510,24,Kokobila,13,Salvelugu,8,Northern Region,31
+416,25,Kukua,20,West Mamprusi,8,Northern Region,32
+375,26,Laogri,20,West Mamprusi,8,Northern Region,33
+406,26,laogri,20,West Mamprusi,8,Northern Region,34
+1,27,Nabogu,13,Salvelugu,8,Northern Region,35
+833,28,Namiyilla,20,West Mamprusi,8,Northern Region,36
+580,29,naro,5,Nadowli,10,Upper West region,37
+575,29,Naro,5,Nadowli,10,Upper West region,38
+331,30,Nasia,20,West Mamprusi,8,Northern Region,39
+1002,31,Nator-Duori,5,Nadowli,10,Upper West region,40
+363,31,Natodori,5,Nadowli,10,Upper West region,41
+799,32,Nyagli,1,Wa West,10,Upper West region,42
+484,33,Nyangua,3,Kassena-Nankana,9,Upper East region,43
+835,34,Papu,5,Nadowli,10,Upper West region,44
+998,35,Pase,1,Wa West,10,Upper West region,45
+2,35,Passe,1,Wa West,10,Upper West region,46
+291,36,Pigu,13,Salvelugu,8,Northern Region,47
+506,37,Sagie,5,Nadowli,10,Upper West region,48
+1666,38,Sabulungo,6,Bongo,9,Upper East region,49
+343,38,Sabolungu,6,Bongo,9,Upper East region,50
+168,39,Shia,5,Talensi-Nabdam,9,Upper East region,51
+76,40,Siriyili,1,Wa West,10,Upper West region,52
+1008,40,Siriyiri,1,Wa West,10,Upper West region,53
+466,41,Tabiase,5,Nadowli,10,Upper West region,54
+128,42,Tanina,1,Wa West,10,Upper West region,55
+1721,43,Tekuru,6,Bongo,9,Upper East region,56
+493,43,Tekuru,3,Kassena-Nankana,9,Upper East region,57
+163,44,Tibali,13,Salvelugu,8,Northern Region,58
+1508,45,Tigbonayili,12,Tolon/Kumbungu,8,Northern Region,59
+666,45,Tiborgunayilli,12,Tolon/Kumbungu,8,Northern Region,60
+198,46,Tindan,13,Salvelugu,8,Northern Region,61
+547,47,Tingoli,12,Tolon/Kumbungu,8,Northern Region,62
+686,48,Wogu,5,Nadowli,10,Upper West region,63
+104,49,Yenduri,5,Talensi-Nabdam,9,Upper East region,64
+231,50,Zanko,1,Wa West,10,Upper West region,65
